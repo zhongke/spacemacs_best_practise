@@ -1,0 +1,87 @@
+* SPACEMACS BEST PRACTISE
+Learn to use spacemacs with Kevin Zhong N.
+Learning; Sharing; Practise.
+
+* Shared Folders/Files
+
+#+BEGIN: Folder tree
+#+CAPTION:
+| File    | Headline                                   | Time   |      |
+|---------+--------------------------------------------+--------+------|
+|         | ALL *Total time*                           | *2:05* |      |
+|---------+--------------------------------------------+--------+------|
+| gtd.org | *File time*                                | *2:05* |      |
+|         | Daily Tasks                                | 0:25   |      |
+|         | \_  TODO Visit Reddit                      |        | 0:25 |
+|         | Cocos2D-X                                  | 1:40   |      |
+|         | \_  STARTED Improve Label of native engine |        | 1:40 |
+#+END:
+
+
+* org mode usage:
+
+** Examples of org mode files:
+git clone https://github.com/zilongshanren/org-notes
+** 展开章节: TAB
+** 插入代码, 代码高亮:
+#+begin_src c++
+int i;
+cout << "Hello" << endl;
+#+end_src
+
+#+begin_src ruby
+def func
+   puts "hello world"
+end
+#+end_src
+
+** 切换 vim 和 emacs 模式: C-z
+** TAB: expand TAB
+** 插入 table:
+SPC m t a    : default
+SPC m t n    : 5x2 ect.
+| table  | to   |
+|--------+------|
+| modify | each |
+| column | row  |
+|        |      |
+
+** Help: for vim mode: SPC, C-h. For emacs: C-c, C-h
+
+** 脚注
+用[fn:1]的方式插入脚注，而在最下面插入　
+
+[fn:1]本文参考自 http://orgmode.org/orgguide.pdf
+这个标签是可以点击的。
+** export (pdf, latex)
+C-c C-e
+
+** 插入链接:
+[[./img/xx.png
+]]
+
+**  表格
+| Name  | phone | sub1 | sub2 | total |
+| maple |     1 |    1 |    1 |     2 |
+| kks   |     2 |    2 |    2 |     4 |
+|       |       |      |      |       |
+
+#+TBLFM: $5=$3+$4
+
+* GTD, TODO list usage:
+** Short Cut:
+Status: DONE - TODO: C-c C-t
+Insert Scheduled: C-c C-s
+Insert Deadline: C-c C-d
+Insert timestamp: C-c .
+*** DONE 插入图片
+CLOSED: [2015-11-12 Thu 12:44]
+#+CAPTION: This is the caption for the next figure link(or table).
+#+NAME: flg:SED-HR4049
+[[./img/a.png]]
+To show: C+c mode then, search "image"
+*** DONE quicklook for org-mode
+CLOSED: [2015-11-12 Thu 13:24]
+
+*
+* Action LIST:
