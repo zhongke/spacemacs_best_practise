@@ -6,20 +6,19 @@ Learning; Sharing; Practise.
 
 #+BEGIN: Folder tree
 #+CAPTION:
-| File    | Headline                                   | Time   |      |
-|---------+--------------------------------------------+--------+------|
-|         | ALL *Total time*                           | *2:05* |      |
-|---------+--------------------------------------------+--------+------|
-| gtd.org | *File time*                                | *2:05* |      |
-|         | Daily Tasks                                | 0:25   |      |
-|         | \_  TODO Visit Reddit                      |        | 0:25 |
-|         | Cocos2D-X                                  | 1:40   |      |
-|         | \_  STARTED Improve Label of native engine |        | 1:40 |
+| File | Headline       | Note                              |   |
+|------+----------------+-----------------------------------+---|
+|      | ALL            |                                   |   |
+|------+----------------+-----------------------------------+---|
+| .    |                |                                   |   |
+|      | img            | The folder contains all img files |   |
+|      | \_             |                                   |   |
+|      | config_files   | The folder contains config files  |   |
+|      | \_  .spacemacs | Shared .spacemacs config files    |   |
+|      |                |                                   |   |
 #+END:
 
-
 * org mode usage:
-
 ** Examples of org mode files:
 git clone https://github.com/zilongshanren/org-notes
 ** 展开章节: TAB
@@ -84,4 +83,6 @@ To show: C+c mode then, search "image"
 CLOSED: [2015-11-12 Thu 13:24]
 
 *
-* Action LIST:
+* TODO Action LIST:
+** TODO G: org mode, more usage.
+** TODO K: C/C++ IDE configuration.
